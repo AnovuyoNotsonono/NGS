@@ -1,0 +1,5 @@
+sample,fastq_1,fastq_2
+SRR25743479,data/SRR25743479_1.fastq.gz,data/SRR25743479_2.fastq.gz
+SRR25743480,data/SRR25743480_1.fastq.gz,data/SRR25743480_2.fastq.gz
+SRR25743481,data/SRR25743481_1.fastq.gz,data/SRR25743481_2.fastq.gz
+SRR25743503,data/SRR25743503_1.fastq.gz,data/SRR25743503_2.fastq.gz
