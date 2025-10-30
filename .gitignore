@@ -1,0 +1,45 @@
+# NGS raw data
+
+# Ignore folders
+SARS-COV-2_Drug_Resistance_Analysis/data/
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/variants/bowtie2/
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/pipeline_info/
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/multiqc/multiqc_data/*.log
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/multiqc/multiqc_data/*.json
+
+# Ignore all pipeline-generated content under results
+SARS-COV-2_Drug_Resistance_Analysis/results/**/multiqc/multiqc_data/
+SARS-COV-2_Drug_Resistance_Analysis/results/**/fastqc/raw/
+SARS-COV-2_Drug_Resistance_Analysis/results/**/.ipynb_checkpoints/
+SARS-COV-2_Drug_Resistance_Analysis/results/**/pipeline_info/
+SARS-COV-2_Drug_Resistance_Analysis/results/**/variants/ivar/bcftools_stats/
+SARS-COV-2_Drug_Resistance_Analysis/results/**/variants/ivar/consensus/bcftools/quast/
+SARS-COV-2_Drug_Resistance_Analysis/results/**/variants/ivar/consensus/bcftools/base_qc/
+SARS-COV-2_Drug_Resistance_Analysis/results/**/variants/ivar/consensus/bcftools/quast/minimap_output/
+
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/variants/ivar/snpeff/
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/variants/ivar/log/
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/variants/ivar/consensus/
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/variants/ivar/*.ipynb
+SARS-COV-2_Drug_Resistance_Analysis/results/viralrecon/variants/ivar/.ipynb_checkpoints/
+
+# Ignore raw VCF and tabular variant intermediates
+SARS-COV-2_Drug_Resistance_Analysis/results/**/variants/ivar/*.tsv
+SARS-COV-2_Drug_Resistance_Analysis/results/**/variants/ivar/*.vcf.gz
+SARS-COV-2_Drug_Resistance_Analysis/results/**/variants/ivar/*.vcf.gz.tbi
+
+# Ignore Jupyter notebooks & checkpoints
+.ipynb_checkpoints/
+
+# Ignore QC/cov PDFs & TSVs
+*.pdf
+*.tsv
+*ipynb
+
+
+# Ignore file types
+*.zip
+*.tar.gz
+*.fastq.gz
+*.mp4*
+*.iso
