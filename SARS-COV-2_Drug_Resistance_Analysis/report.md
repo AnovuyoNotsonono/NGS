@@ -7,6 +7,7 @@ This study was motivated by the work of Ferreira et al. (2023) “Identification
 Our study aimed to identify naturally occurring mutations in the PLpro region that could potentially interfere with inhibitor binding.
 
 **Methods**
+
 Reference Sequences
 
 The reference for coordinates of the orf1ab polyprotein, which contains PLpro, was obtained from NCBI Reference Sequence: YP_009724389.1. The residue span of PLpro was determined by aligning the PLpro fasta sequence from the reference using BLAST against the PDB structure 8UOB, corresponding to the known PLpro structure.
