@@ -86,3 +86,4 @@ NCBI Reference Sequence: YP_009724389.1.
 
 Protein Data Bank: 8UOB.
 
+BLAST: Basic Local Alignment Search Tool. Altschul SF, et al. J Mol Biol. 1990;215:403–410. Available: https://blast.ncbi.nlm.nih.gov/
