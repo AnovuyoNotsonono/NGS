@@ -12,9 +12,20 @@ Reference Sequences
 
 The reference for coordinates of the orf1ab polyprotein, which contains PLpro, was obtained from NCBI Reference Sequence: YP_009724389.1. The residue span of PLpro was determined by aligning the PLpro fasta sequence from the reference using BLAST against the PDB structure 8UOB, corresponding to the known PLpro structure.
 
-Sequencing Data Processing
+*Sequencing Data Processing*
 
-Raw sequencing data were processed using Nextflow with the nf-core/viralrecon pipeline:
+The raw sequencing dataset used in this study was downloaded from NCBI SRA, including Tiled_ClickSeq experiments for SARS-CoV-2:
+
+SRR25743479_1.fastq.gz / SRR25743479_2.fastq.gz
+
+SRR25743480_1.fastq.gz / SRR25743480_2.fastq.gz
+
+SRR25743481_1.fastq.gz / SRR25743481_2.fastq.gz
+
+SRR25743503_1.fastq.gz / SRR25743503_2.fastq.gz
+
+These paired-end reads were processed using Nextflow with the nf-core/viralrecon pipeline:
+
 ```bash
 nextflow run nf-core/viralrecon \
   -profile conda \
@@ -87,3 +98,5 @@ NCBI Reference Sequence: YP_009724389.1.
 Protein Data Bank: 8UOB.
 
 BLAST: Basic Local Alignment Search Tool. Altschul SF, et al. J Mol Biol. 1990;215:403–410. Available: https://blast.ncbi.nlm.nih.gov/
+
+NCBI SRA dataset: SRR25743479, SRR25743480, SRR25743481, SRR25743503 (Tiled_ClickSeq of SARS-CoV-2)
